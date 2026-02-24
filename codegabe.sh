@@ -7,6 +7,13 @@ sudo pacman -S libva-mesa-driver -y
 sudo pacman -S vulkan-radeon -y
 sudo pacman -S flatpak -y
 sudo pacman -S fuse -y
+sudo pacman -S git -y
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+git clone https://aur.archlinux.org/google-chrome.git
+cd google-chrome
+makepkg -si
 #===================Games And Apps========================================
 cd
 cd Desktop
